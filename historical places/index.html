@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            padding-top: 80px;
+        }
+        header{
+            color: #283618;
+            background-image:linear-gradient(30deg,violet,indigo,blue,green,yellow,orange,red);
+            font-size: 50px;
+            left: 0px;
+            top: 0px;
+            position: fixed;
+            text-align: center;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 20px;
+            box-shadow: 12px 12px 10px black;
+        }
+        footer{
+            color: #000000;
+            background-image:linear-gradient(30deg,violet,indigo,blue,green,yellow,orange,red);
+            font-size: 50px;
+            left: 0px;
+            bottom: 0px;
+            position: fixed;
+            text-align: center;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 20px;
+            box-shadow: 12px 12px 10px black;
+        }
+        
+        #a{grid-area: a1;}
+        #b{grid-area: b1;}
+        #c{grid-area: c1;}
+        #d{grid-area: d1;}
+        #e{grid-area: e1;}
+        #f{grid-area: f1;}
+        #g{grid-area: g1;}
+        #h{grid-area: h1;}
+        #i{grid-area: i1;}
+
+        .maindiv{
+            display: grid;
+            grid-template-areas: "a1 b1 c1"
+            "d1 e1 f1"
+            "g1 h1 i1";
+            padding: 10px;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        div{
+            padding: 10px;
+            background-color: black;
+            border-radius: 20px;
+            margin: 10px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-family: cursive;
+        }
+        audio{
+            padding: 30px;
+            border-radius: 30px;
+            margin: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>Historical places in India</header>
+    <div class="maindiv">
+        <div id="a">
+            <a href="https://https://en.wikipedia.org/wiki/Taj_Mahal">
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/07/20204648/10-famous-historical-places-in-India-04.jpg" width="250px" height="250px"><br>Taj_Mahal 
+            </a>
+        </div>
+        <div id="b">
+            <a href="https://en.wikipedia.org/wiki/Qutb_Minar">
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/07/20204731/10-famous-historical-places-in-India-05.jpg" width="250px" height="250px"><br>Qutub_Minar
+            </a>
+        </div>
+        <div id="c">
+            <a href="https://en.wikipedia.org/wiki/Amber_Fort">
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/07/20204813/10-famous-historical-places-in-India-06.jpg" width="250px" height="250px"><br>Amer_Fort
+        </a>
+        </div>
+        <div id="d">
+            <a href="https://en.wikipedia.org/wiki/Ajanta_Caves">
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/07/20205006/10-famous-historical-places-in-India-09.jpg" width="250px" height="250px"><br>Ajanta_caves
+            </a>
+        </div>
+        <div id="e">
+            <a href="https://en.wikipedia.org/wiki/Konark_Sun_Temple">
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/07/20205133/10-famous-historical-places-in-India-11.jpg" width="250px" height="250px"><br>konark_Temple
+            </a>
+        </div>
+        <div id="f">
+            <a href="https://en.wikipedia.org/wiki/Sanchi">
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/07/20205240/10-famous-historical-places-in-India-12.jpg" width="250px" height="250px"><br>Sanchi_Stupa
+            </a>
+        </div>
+        <div id="g">
+            <a href="https://en.wikipedia.org/wiki/Gateway_of_India">
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/07/20205359/10-famous-historical-places-in-India-14.jpg" width="250px" height="250px"><br>Gateway_of_India
+            </a>
+        </div>
+        <div id="h">
+            <a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata">
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/07/20205835/10-famous-historical-places-in-India-21.jpg" width="250px" height="250px"><br>Victoria_Memorial
+            </a>
+        </div>
+        <div id="i">
+            <a href="https://en.wikipedia.org/wiki/Khajuraho">
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/07/20210006/10-famous-historical-places-in-India-23.jpg" width="250px" height="250px"><br>Khajuraho
+            </a>
+        </div><br>
+    
+    </div>
+        <center><audio src="audio.mp3" controls></audio></center>
+</body>
+</html>
